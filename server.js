@@ -10,10 +10,8 @@ const PORT = process.env.PORT || 8080;
 
 //Routes
 //=============================================
-//route to the homepage
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "home.html"));
-  });
+require ("./app/routing/htmlRoutes.js")(app);
+
 
 //Listener
 //==============================================
