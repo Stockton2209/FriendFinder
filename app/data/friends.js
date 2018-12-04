@@ -18,6 +18,15 @@
 //     ]
 // }
 
+var friends = [
+    {
+        name: "Barry",
+        scores: [
+            5,2,4,1,2,4,3,1
+        ]
+    }
+];
+
 // Determine the user's most compatible friend using the following as a guide:
 
 //    * Convert each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
