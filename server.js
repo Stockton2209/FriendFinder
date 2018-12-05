@@ -10,6 +10,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 //Data
 //=============================================
+// access for the static files
+app.use(express.static("app/public"));
 
 //Routes
 //=============================================
